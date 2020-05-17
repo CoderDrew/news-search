@@ -1,0 +1,62 @@
+API Key = da84892f52194006b61f5401f21645c8
+
+state = {
+    newsItems: [
+      {
+        source: {
+          id: null,
+          name: 'Lifehacker.com',
+        },
+        author: 'Emily Price',
+        title: 'Now You Can Find a COVID-19 Testing Center Using Google',
+        description: 'Now when you search for COVID-19 on Google you can find information about testing sites for the virus located near you.Read more...',
+        url: 'https://lifehacker.com/now-you-can-find-a-covid-19-testing-center-using-google-1842946499',
+        urlToImage: 'https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/d2azbjupvgdcl0dgig95.jpg',
+        publishedAt: '2020-04-17T21:57:00Z',
+        content:
+          'Now when you search for COVID-19 on Google you can find information about testing sites for the virus located near you.\r\nGoogle rolled out the ability to search for testing sites on Friday. The search engine is now able to display information for more than 2,… [+1213 chars]',
+      },
+      {
+        source: {
+          id: 'wired',
+          name: 'Wired',
+        },
+        author: 'Aarian Marshall',
+        title: 'Tesla Posts Another Profit as Musk Slams Virus Restrictions',
+        description: "The CEO has criticized shelter-in-place orders, which have forced the closure of the company's California assembly plant.",
+        url: 'https://www.wired.com/story/tesla-posts-profit-musk-slams-virus-restrictions/',
+        urlToImage: 'https://media.wired.com/photos/5ea9b643f6ca1700082903b0/191:100/w_1280,c_limit/Transpo-musk-1211442364.jpg',
+        publishedAt: '2020-04-30T01:38:47Z',
+        content:
+          'Tesla on Wednesday reported its third consecutive quarterly profit, defying the projections of analysts who had expected the Covid-19 pandemic to drive the electric carmaker to a loss. The company touted production of the Model Y, its more affordable SUV. Tes… [+3930 chars]',
+      },
+      {
+        source: {
+          id: 'wired',
+          name: 'Wired',
+        },
+        author: 'Aarian Marshall',
+        title: 'Drone Deliveries, Food Supplies, and More Car News This Week',
+        description: "US-based Zipline is using drones to deliver virus tests and supplies in Ghana. Plus: Rerouting the nation's food supply is proving difficult.",
+        url: 'https://www.wired.com/story/drone-deliveries-food-supplies-more-car-news/',
+        urlToImage: 'https://media.wired.com/photos/5ea35ad231d06e000847a5e6/191:100/w_1280,c_limit/Transpo-Floating-Red-Box.jpg',
+        publishedAt: '2020-04-26T13:00:00Z',
+        content:
+          'This week, we talked to people trying to help stem the hurt of the Covid-19 pandemicwith mixed success. One company, Zipline, is using drones to help deliver virus testing supplies and personal protective equipment in Ghana. It has accelerated efforts to brin… [+1494 chars]',
+      },
+      {
+        source: {
+          id: 'wired',
+          name: 'Wired',
+        },
+        author: 'Gregory Barber',
+        title: 'Covid-19 Was Here Earlier Than Most Americans Thought. Now What?',
+        description: "Epidemiologists aren't surprised that virus was spreading in the US in early February. But those early days offer lessons for how to catch the next wave.",
+        url: 'https://www.wired.com/story/covid-19-was-here-earlier-than-most-americans-thought-now-what/',
+        urlToImage: 'https://media.wired.com/photos/5ea746064e08ae0008803bef/191:100/w_1280,c_limit/Science_covid19_1211415985.jpg',
+        publishedAt: '2020-04-28T13:00:00Z',
+        content:
+          'For the past two months, the earliest known community spread of Covid-19passed between people here in the United States, rather than a traveler bringing it home from abroadwas a case identified at the UC Davis medical center on February 26. Now we have confir… [+3767 chars]',
+      },
+    ],
+  };
