@@ -12,7 +12,7 @@ const NewsState = (props) => {
 
   const [state, dispatch] = useReducer(NewsReducer, initialState);
 
-  let newsApiKey = 'da84892f52194006b61f5401f21645c8';
+  let newsApiKey;
 
   if (process.env.NODE_ENV !== 'production') {
     newsApiKey = process.env.REACT_APP_NEWS_API_KEY;
