@@ -12,26 +12,18 @@ const NewsState = (props) => {
 
   const [state, dispatch] = useReducer(NewsReducer, initialState);
 
-  let newsApiKey;
+  let newsApiKey = 'da84892f52194006b61f5401f21645c8';
 
   if (process.env.NODE_ENV !== 'production') {
     newsApiKey = process.env.REACT_APP_NEWS_API_KEY;
   } else {
-    newsApiKey = process.env.NEWS_API_KEY;
+    //newsApiKey = process.env.NEWS_API_KEY;
   }
 
   //   Search News
-  // const searchNews = async (text) => {
-  //   setLoading();
-  //   const res = await axios.get(`https://newsapi.org/v2/everything?qInTitle=${text}&apiKey=${newsApiKey}`);
-  //   dispatch({
-  //     type: SEARCH_NEWS,
-  //     payload: res.data.articles,
-  //   });
-  // };
   const searchNews = async (text) => {
     setLoading();
-    const res = await axios.get(`https://newsapi.org/v2/everything?qInTitle=${text}&apiKey=da84892f52194006b61f5401f21645c8`);
+    const res = await axios.get(`https://newsapi.org/v2/everything?qInTitle=${text}&apiKey=${newsApiKey}`);
     dispatch({
       type: SEARCH_NEWS,
       payload: res.data.articles,
