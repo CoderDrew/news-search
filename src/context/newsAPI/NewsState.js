@@ -23,7 +23,8 @@ const NewsState = (props) => {
   //   Search News
   const searchNews = async (text) => {
     setLoading();
-    const res = await axios.get(`https://newsapi.org/v2/everything?qInTitle=${text}&apiKey=${newsApiKey}`);
+    //const res = await axios.get(`https://newsapi.org/v2/everything?qInTitle=${text}&apiKey=${newsApiKey}`);
+    const res = await axios.get(`https://newsapi.org/v2/everything?qInTitle=${text}&apiKey=da84892f52194006b61f5401f21645c8`);
     dispatch({
       type: SEARCH_NEWS,
       payload: res.data.articles,
